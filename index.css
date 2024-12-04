@@ -1,3 +1,58 @@
-#heading {
-color:red
+
+
+.header{
+display: flex;
+justify-content: space-between;
+border: 1px solid black;
+box-sizing: border-box;
+}
+
+.logo {
+    width: 50px;
+    padding: 20px 20px;
+ 
+}
+.nav-items{
+
+}
+.nav-items  ul{
+    display: flex;
+}
+
+.nav-items ul li{
+    margin-top: 5px;
+
+    list-style-type: none;
+    padding:20px;
+
+}
+.resimg{
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    max-height: 200px; /* Set a maximum height */
+    object-fit: cover;
+}
+
+.rescard{
+    padding:5px;
+    width:200px;
+    margin: 5px;
+
+}
+.rescard:hover{
+
+border: 1px solid black;
+cursor: pointer;
+}
+
+.rescontainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.search{
+    padding:10px;
+}
+h3, h4, h5 {
+    margin-top: 0;  /* Remove top margin */
+    margin-bottom: 10px;  /* Set a smaller bottom margin */
 }
